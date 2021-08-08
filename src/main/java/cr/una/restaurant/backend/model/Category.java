@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 @Table(name="category")
@@ -16,4 +17,15 @@ public class Category {
     @Column(name = "name_category")
     @Getter @Setter
     private String nameCategory;
+
+    @OneToMany(mappedBy = "category")
+    private Set<Dish> dishes;
+
+    public Category(Set<Dish> dishes) {
+        this.dishes = dishes;
+    }
+
+    public Category() {
+
+    }
 }

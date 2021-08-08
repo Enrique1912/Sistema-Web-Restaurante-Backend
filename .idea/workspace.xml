@@ -4,28 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad0e10b-0241-4f2c-8447-997e6b87dcbd" name="Default Changelist" comment="Basics Layout of the class Dish and Category, webService is incompleted">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/comun/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/comun/HibernateConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dao/AbstractHibernateDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dao/CategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dao/DishDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dao/ICategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dao/IDishDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/CategoryDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/DishDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/exception/CategoryNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/exception/DishNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/service/DishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/service/ICategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/service/IDishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/webservice/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" afterDir="false" />
+    <list default="true" id="bad0e10b-0241-4f2c-8447-997e6b87dcbd" name="Default Changelist" comment="Service Layer is fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/RestaurantBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/RestaurantBackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Dish.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +54,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RestaurantBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Sistema-Web-Restaurante-Backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cr.una.restaurant.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cr.una.restaurant.backend.RestaurantBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.RestaurantBackendApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,7 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628458840510</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Basics Layout of the class Dish and Category, webService is incompleted">
+      <created>1628461351057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628461351057</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Service Layer is fixed">
+      <created>1628461400957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628461400957</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +133,7 @@
     <MESSAGE value="Second Commit, pom.xml is added" />
     <MESSAGE value="Dependecies added" />
     <MESSAGE value="Basics Layout of the class Dish and Category, webService is incompleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basics Layout of the class Dish and Category, webService is incompleted" />
+    <MESSAGE value="Service Layer is fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Service Layer is fixed" />
   </component>
 </project>

@@ -15,4 +15,7 @@ public class Dish {
     @Column(name = "nameDish")
     @Getter @Setter
     private String nameDish;
+    @ManyToOne
+    @JoinColumn(name="id_category", nullable=false)
+    private Category category;
 }
