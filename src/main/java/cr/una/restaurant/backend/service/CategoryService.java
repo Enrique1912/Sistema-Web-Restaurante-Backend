@@ -1,37 +1,37 @@
 package cr.una.restaurant.backend.service;
 
-import cr.una.restaurant.backend.dao.IDishDao;
-import cr.una.restaurant.backend.exception.DishNotFoundException;
-import cr.una.restaurant.backend.model.Dish;
+import cr.una.restaurant.backend.dao.ICategoryDao;
+import cr.una.restaurant.backend.exception.CategoryNotFoundException;
+import cr.una.restaurant.backend.model.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class DishService implements IDishService{
+public class CategoryService implements ICategoryService{
     @Autowired
-    private IDishDao dao;
+    private ICategoryDao dao;
 
 
     @Override
-    public Dish findById(long id) throws DishNotFoundException {
+    public Category findById(long id) throws CategoryNotFoundException {
         return dao.findById(id);
     }
 
     @Override
-    public Dish add(Dish dish) {
-        return dao.add(dish);
+    public Category add(Category category) {
+        return dao.add(category);
     }
 
     @Override
-    public Dish update(Dish dish) {
-        return dao.update(dish);
+    public Category update(Category category) {
+        return dao.update(category);
     }
 
     @Override
-    public void delete(Dish dish) {
-        dao.delete(dish);
+    public void delete(Category category) {
+        dao.delete(category);
     }
 
     @Override
-    public void deleteById(long id) throws DishNotFoundException {
+    public void deleteById(long id) throws CategoryNotFoundException {
         dao.deleteById(id);
     }
 }
