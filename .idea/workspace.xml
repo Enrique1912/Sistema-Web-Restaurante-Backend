@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad0e10b-0241-4f2c-8447-997e6b87dcbd" name="Default Changelist" comment="One to Many works in Postman">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/webservice/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/webservice/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" afterDir="false" />
-    </list>
+    <list default="true" id="bad0e10b-0241-4f2c-8447-997e6b87dcbd" name="Default Changelist" comment="Delete verb works" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628480059831</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Get One to Many works perfectly">
+      <created>1628481019946</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628481019946</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Delete verb works">
+      <created>1628481198369</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628481198369</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +164,9 @@
     <MESSAGE value="Service Layer is fixed" />
     <MESSAGE value="One to Many Relation is implemented succesfully" />
     <MESSAGE value="One to Many works in Postman" />
-    <option name="LAST_COMMIT_MESSAGE" value="One to Many works in Postman" />
+    <MESSAGE value="Get One to Many works perfectly" />
+    <MESSAGE value="Delete verb works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete verb works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -167,13 +178,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/webservice/CategoryController.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/webservice/CategoryController.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="33" />
+          <line>58</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
