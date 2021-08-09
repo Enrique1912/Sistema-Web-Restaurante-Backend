@@ -51,7 +51,6 @@ public class CategoryController {
             serviceDishes.add(newDish);
         }
         return convertToDto(category);
-       // return categoryBD;
     }
 
     @PutMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)

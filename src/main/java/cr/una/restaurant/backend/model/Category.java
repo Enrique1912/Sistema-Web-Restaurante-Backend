@@ -17,7 +17,7 @@ public class Category {
     @Column(name = "name_category")
     @Getter @Setter
     private String nameCategory;
-    @OneToMany(mappedBy = "category")
+    @OneToMany(fetch = FetchType.EAGER, mappedBy = "category", cascade = CascadeType.ALL)
     @Getter @Setter
     private List<Dish> dishes;
 
