@@ -1,11 +1,14 @@
 package cr.una.restaurant.backend.dto;
+import cr.una.restaurant.backend.model.Dish;
 import lombok.Data;
 import javax.validation.constraints.NotBlank;
+import java.util.List;
 
 @Data
 public class CategoryDto {
-    @NotBlank(message = "Label of idCategory is not complete, try again")
     private Long idCategory;
-    @NotBlank(message = "Label of nameCategory is not complete, try again")
+    //@NotBlank(message = "Label of nameCategory is not complete, try again")
     private String nameCategory;
+    //@NotBlank(message = "Label Dishes")
+    private List<Dish> dishes;
 }

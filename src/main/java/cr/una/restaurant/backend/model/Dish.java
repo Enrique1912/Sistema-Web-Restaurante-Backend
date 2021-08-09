@@ -1,4 +1,5 @@
 package cr.una.restaurant.backend.model;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -17,5 +18,7 @@ public class Dish {
     private String nameDish;
     @ManyToOne
     @JoinColumn(name="id_category", nullable=false)
+    @Getter @Setter
+    @JsonIgnore
     private Category category;
 }

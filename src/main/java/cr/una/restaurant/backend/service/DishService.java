@@ -4,7 +4,11 @@ import cr.una.restaurant.backend.dao.IDishDao;
 import cr.una.restaurant.backend.exception.DishNotFoundException;
 import cr.una.restaurant.backend.model.Dish;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+@Service
+@Transactional
 public class DishService implements IDishService{
     @Autowired
     private IDishDao dao;

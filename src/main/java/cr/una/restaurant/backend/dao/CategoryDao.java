@@ -17,11 +17,11 @@ public class CategoryDao extends AbstractHibernateDao implements ICategoryDao {
     }
 
     @Override
-    public Category add(Category Category) {
-        Preconditions.checkNotNull(Category);
-        getCurrentSession().saveOrUpdate(Category);
+    public Category add(Category category) {
+        Preconditions.checkNotNull(category);
+        getCurrentSession().saveOrUpdate(category);
 
-        return Category;
+        return category;
     }
 
 
