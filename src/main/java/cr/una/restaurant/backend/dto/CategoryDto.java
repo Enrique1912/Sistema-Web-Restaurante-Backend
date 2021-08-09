@@ -7,8 +7,7 @@ import java.util.List;
 @Data
 public class CategoryDto {
     private Long idCategory;
-    //@NotBlank(message = "Label of nameCategory is not complete, try again")
+    @NotBlank(message = "Label of nameCategory is not complete, try again")
     private String nameCategory;
-    //@NotBlank(message = "Label Dishes")
     private List<Dish> dishes;
 }

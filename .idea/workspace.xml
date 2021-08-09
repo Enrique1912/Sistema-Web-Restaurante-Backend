@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad0e10b-0241-4f2c-8447-997e6b87dcbd" name="Default Changelist" comment="Delete verb works" />
+    <list default="true" id="bad0e10b-0241-4f2c-8447-997e6b87dcbd" name="Default Changelist" comment="Corrections, delete the &quot;cascade.All&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dao/BillDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dao/IBillDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/BillDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/exception/BillNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/service/BillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/service/IBillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/CategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/CategoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/DishDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/DishDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/service/ICategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/persistence-mysql.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,15 +56,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PruebaNetbeans" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,6 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628456274888</updated>
       <workItem from="1628456276327" duration="757000" />
+      <workItem from="1628548986852" duration="1828000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit, pom.xml is added">
       <created>1628458534088</created>
@@ -139,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628481198369</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Corrections, delete the &quot;cascade.All&quot;">
+      <created>1628481505085</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628481505085</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +187,8 @@
     <MESSAGE value="One to Many works in Postman" />
     <MESSAGE value="Get One to Many works perfectly" />
     <MESSAGE value="Delete verb works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete verb works" />
+    <MESSAGE value="Corrections, delete the &quot;cascade.All&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrections, delete the &quot;cascade.All&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -175,11 +197,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/webservice/CategoryController.java</url>
           <line>77</line>
           <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/webservice/CategoryController.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -191,7 +208,7 @@
     </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Sistema_Web_Restaurante_Backend$RestaurantBackendApplication.ic" NAME="RestaurantBackendApplication Coverage Results" MODIFIED="1628473361098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Sistema_Web_Restaurante_Backend$RestaurantBackendApplication.ic" NAME="RestaurantBackendApplication Coverage Results" MODIFIED="1628481782136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>cr.una.restaurant.backend.*</FILTER>
     </SUITE>
   </component>

@@ -7,6 +7,9 @@ import java.util.List;
 @Data
 public class DishDto {
     private Long idDish;
-    @NotBlank(message = "nameDish's label is not completed")
+    @NotBlank(message = "nameDish's label is not completed,please try again")
     private String nameDish;
+    private int quantity;
+    @NotBlank(message = "PriceOfTheDish's label is not completed,please try again")
+    private int priceOfTheDish;
 }

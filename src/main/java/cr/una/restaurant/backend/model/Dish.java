@@ -16,9 +16,21 @@ public class Dish {
     @Column(name = "nameDish")
     @Getter @Setter
     private String nameDish;
+    @Column(name = "quantity")
+    @Getter @Setter
+    private int quantity;
+    @Column(name = "price")
+    @Getter @Setter
+    private int priceOfTheDish;
     @ManyToOne
     @JoinColumn(name="id_category", nullable=false)
     @Getter @Setter
     @JsonIgnore
     private Category category;
+
+    /*@ManyToOne
+    @JoinColumn(name="id_bill", nullable=false)
+    @Getter @Setter
+    @JsonIgnore
+    private Bill bill;*/
 }
