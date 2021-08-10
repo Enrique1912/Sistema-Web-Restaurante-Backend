@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad0e10b-0241-4f2c-8447-997e6b87dcbd" name="Default Changelist" comment="One Bill has many dishes is done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/webservice/BillController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Dish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/webservice/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/webservice/CategoryController.java" afterDir="false" />
+    <list default="true" id="bad0e10b-0241-4f2c-8447-997e6b87dcbd" name="Default Changelist" comment="Some fixes in the CategoryController">
+      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/webservice/BillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/webservice/BillController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <updated>1628456274888</updated>
       <workItem from="1628456276327" duration="757000" />
       <workItem from="1628548986852" duration="2080000" />
-      <workItem from="1628621723736" duration="1968000" />
+      <workItem from="1628621723736" duration="2339000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit, pom.xml is added">
       <created>1628458534088</created>
@@ -173,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628623553975</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Some fixes in the CategoryController">
+      <created>1628623866484</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1628623866484</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +209,8 @@
     <MESSAGE value="Entity Bill implemented, this model do not create the table in the data base, I need to check this error" />
     <MESSAGE value="Error is fixed" />
     <MESSAGE value="One Bill has many dishes is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="One Bill has many dishes is done" />
+    <MESSAGE value="Some fixes in the CategoryController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some fixes in the CategoryController" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
