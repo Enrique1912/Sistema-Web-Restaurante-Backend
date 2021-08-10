@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.List;
 
 
 @Entity
@@ -25,8 +26,8 @@ public class Bill {
     private boolean couponCode;
 
     ///One Bill has many dishes
-   // @OneToMany(mappedBy="cart")
-    //private List<Dish> dishes;
+    @OneToMany(mappedBy="bill")
+    private List<Dish> dishes;
 
 
 }

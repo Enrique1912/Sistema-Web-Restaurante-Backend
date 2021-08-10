@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad0e10b-0241-4f2c-8447-997e6b87dcbd" name="Default Changelist" comment="Entity Bill implemented, this model do not create the table in the data base, I need to check this error">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dao/BillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dao/BillDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/BillDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/BillDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" afterDir="false" />
-    </list>
+    <list default="true" id="bad0e10b-0241-4f2c-8447-997e6b87dcbd" name="Default Changelist" comment="Error is fixed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +70,7 @@
       <updated>1628456274888</updated>
       <workItem from="1628456276327" duration="757000" />
       <workItem from="1628548986852" duration="2080000" />
-      <workItem from="1628621723736" duration="1210000" />
+      <workItem from="1628621723736" duration="1508000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit, pom.xml is added">
       <created>1628458534088</created>
@@ -148,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628551005645</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Error is fixed">
+      <created>1628623322151</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1628623322152</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +178,8 @@
     <MESSAGE value="Delete verb works" />
     <MESSAGE value="Corrections, delete the &quot;cascade.All&quot;" />
     <MESSAGE value="Entity Bill implemented, this model do not create the table in the data base, I need to check this error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entity Bill implemented, this model do not create the table in the data base, I need to check this error" />
+    <MESSAGE value="Error is fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error is fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

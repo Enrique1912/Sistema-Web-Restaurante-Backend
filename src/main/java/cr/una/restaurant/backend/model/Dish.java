@@ -28,9 +28,9 @@ public class Dish {
     @JsonIgnore
     private Category category;
 
-    /*@ManyToOne
+    @ManyToOne
     @JoinColumn(name="id_bill", nullable=false)
     @Getter @Setter
     @JsonIgnore
-    private Bill bill;*/
+    private Bill bill;
 }
