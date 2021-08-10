@@ -4,12 +4,10 @@ import cr.una.restaurant.backend.dto.CategoryDto;
 import cr.una.restaurant.backend.exception.CategoryNotFoundException;
 import cr.una.restaurant.backend.model.Category;
 import cr.una.restaurant.backend.model.Dish;
-import cr.una.restaurant.backend.service.CategoryService;
 import cr.una.restaurant.backend.service.ICategoryService;
 import cr.una.restaurant.backend.service.IDishService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
@@ -23,7 +21,7 @@ import javax.validation.Valid;
 public class CategoryController {
 
     @Autowired
-    private ICategoryService service = new CategoryService();
+    private ICategoryService service;
 
     @Autowired
     private IDishService serviceDishes;
@@ -74,7 +72,6 @@ public class CategoryController {
     /*Convert to Dto methods*/
     private CategoryDto convertToDto(Category category) {
         CategoryDto categoryDto = modelMapper.map(category, CategoryDto.class);
-        int size=categoryDto.getDishes().size();
         return categoryDto;
     }
 

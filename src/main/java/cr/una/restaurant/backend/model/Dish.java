@@ -27,7 +27,6 @@ public class Dish {
     @Getter @Setter
     @JsonIgnore
     private Category category;
-
     @ManyToOne
     @JoinColumn(name="id_bill", nullable=false)
     @Getter @Setter
