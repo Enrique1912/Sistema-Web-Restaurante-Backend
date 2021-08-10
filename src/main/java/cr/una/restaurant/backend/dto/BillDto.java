@@ -1,10 +1,7 @@
 package cr.una.restaurant.backend.dto;
 
-import cr.una.restaurant.backend.model.Dish;
 import lombok.Data;
-
 import javax.validation.constraints.NotBlank;
-import java.util.List;
 
 @Data
 public class BillDto {

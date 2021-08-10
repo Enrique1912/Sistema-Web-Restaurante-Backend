@@ -3,6 +3,7 @@ import com.google.common.base.Preconditions;
 import cr.una.restaurant.backend.exception.BillNotFoundException;
 import cr.una.restaurant.backend.model.Bill;
 import org.springframework.stereotype.Repository;
+
 @Repository
 public class BillDao extends AbstractHibernateDao implements IBillDao {
 

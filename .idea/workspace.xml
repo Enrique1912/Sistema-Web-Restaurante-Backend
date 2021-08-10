@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad0e10b-0241-4f2c-8447-997e6b87dcbd" name="Default Changelist" comment="Corrections, delete the &quot;cascade.All&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dao/BillDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dao/IBillDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/BillDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/exception/BillNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/service/BillService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/service/IBillService.java" afterDir="false" />
+    <list default="true" id="bad0e10b-0241-4f2c-8447-997e6b87dcbd" name="Default Changelist" comment="Entity Bill implemented, this model do not create the table in the data base, I need to check this error">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/CategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/CategoryDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/DishDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/DishDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Dish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/service/ICategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dao/BillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dao/BillDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/BillDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/BillDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Bill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/persistence-mysql.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,17 +47,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PruebaNetbeans" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RestaurantBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Sistema-Web-Restaurante-Backend" />
       <extension name="coverage">
@@ -95,7 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1628456274888</updated>
       <workItem from="1628456276327" duration="757000" />
-      <workItem from="1628548986852" duration="1828000" />
+      <workItem from="1628548986852" duration="2080000" />
+      <workItem from="1628621723736" duration="1210000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit, pom.xml is added">
       <created>1628458534088</created>
@@ -160,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628481505085</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Entity Bill implemented, this model do not create the table in the data base, I need to check this error">
+      <created>1628551005645</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1628551005645</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +176,8 @@
     <MESSAGE value="Get One to Many works perfectly" />
     <MESSAGE value="Delete verb works" />
     <MESSAGE value="Corrections, delete the &quot;cascade.All&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrections, delete the &quot;cascade.All&quot;" />
+    <MESSAGE value="Entity Bill implemented, this model do not create the table in the data base, I need to check this error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entity Bill implemented, this model do not create the table in the data base, I need to check this error" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
