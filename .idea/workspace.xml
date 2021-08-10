@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad0e10b-0241-4f2c-8447-997e6b87dcbd" name="Default Changelist" comment="Some fixes in the CategoryController">
+    <list default="true" id="bad0e10b-0241-4f2c-8447-997e6b87dcbd" name="Default Changelist" comment="BillController is semidone">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/BillDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/BillDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/DishDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/dto/DishDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/model/Dish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/webservice/BillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/webservice/BillController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +89,7 @@
       <updated>1628456274888</updated>
       <workItem from="1628456276327" duration="757000" />
       <workItem from="1628548986852" duration="2080000" />
-      <workItem from="1628621723736" duration="2339000" />
+      <workItem from="1628621723736" duration="4808000" />
     </task>
     <task id="LOCAL-00001" summary="Second Commit, pom.xml is added">
       <created>1628458534088</created>
@@ -178,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628623866484</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="BillController is semidone">
+      <created>1628624230260</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1628624230260</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,9 +221,19 @@
     <MESSAGE value="Error is fixed" />
     <MESSAGE value="One Bill has many dishes is done" />
     <MESSAGE value="Some fixes in the CategoryController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some fixes in the CategoryController" />
+    <MESSAGE value="BillController is semidone" />
+    <option name="LAST_COMMIT_MESSAGE" value="BillController is semidone" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cr/una/restaurant/backend/webservice/CategoryController.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="cr.una.restaurant.backend.model.Category" memberName="dishes" />

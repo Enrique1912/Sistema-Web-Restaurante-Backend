@@ -23,12 +23,12 @@ public class Dish {
     @Getter @Setter
     private int priceOfTheDish;
     @ManyToOne
-    @JoinColumn(name="id_category", nullable=false)
+    @JoinColumn(name="id_category", nullable=true)
     @Getter @Setter
     @JsonIgnore
     private Category category;
     @ManyToOne
-    @JoinColumn(name="id_bill", nullable=false)
+    @JoinColumn(name="id_bill", nullable=true)
     @Getter @Setter
     @JsonIgnore
     private Bill bill;

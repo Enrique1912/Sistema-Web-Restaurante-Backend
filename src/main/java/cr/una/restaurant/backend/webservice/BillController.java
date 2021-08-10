@@ -45,11 +45,11 @@ public class BillController {
         Bill bill = convertToEntity(billDto);
         Bill billBD=service.add(bill);
         Dish newDish;
-       /* for(int i=0; i<billDto.getDishes().size() ;i++){
+       for (int i=0; i<billDto.getDishes().size() ;i++){
             newDish=billDto.getDishes().get(i);
             newDish.setBill(billBD);
             serviceDishes.add(newDish);
-        }*/
+        }
         return convertToDto(bill);
     }
 
